@@ -1,0 +1,42 @@
+.footer {
+    background: #2C343E;
+    padding: 47px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__info {
+        margin-left: 102px;
+    }
+
+    &__ssilka {
+        color: #83888F;
+        font-family: "Barlow";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        text-transform: uppercase;
+
+
+        & + & {
+            padding-left: 33px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-left: 369px;
+    }
+
+    &__item + &__item {
+        margin-left: 24px;
+    }
+
+}
+path:hover {
+    fill: aqua;
+}
